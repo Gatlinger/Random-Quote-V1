@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import randomQuote from './fetch';
 
 function App() {
+  // const iii = randomQuote()
+  const pressMeHandler = () => {
+    randomQuote()
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={pressMeHandler}>PRESS ME</button>
+      <div id={'div-for-content'}>
+        
+      </div>
+      <div id={'div-for-author'}>
+        
+      </div>
     </div>
   );
 }
