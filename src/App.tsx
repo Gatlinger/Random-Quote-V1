@@ -9,14 +9,16 @@ function App() {
   }
 
   return (
-    <div>
-      <button onClick={pressMeHandler}>PRESS ME</button>
-      <div id={'div-for-content'}>
-        
+    <div className='App'>
+
+      <button onClick={pressMeHandler} className='button-class'>СЛУЧАЙНАЯ ЦИТАТА</button>
+
+      <div id={'div-for-content'} className='div-for-content-class'>
       </div>
-      <div id={'div-for-author'}>
-        
+
+      <div id={'div-for-author'} className='div-for-author-class'>
       </div>
+
     </div>
   );
 }

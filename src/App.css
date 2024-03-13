@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+  }
+
+.div-for-content-class {
+    background-color: rgb(163, 212, 212);
+    font-size: x-large;
+}
+
+.div-for-author-class {
+    background-color: rgb(211, 203, 135);
+    font-size: large;
+}
+
+.button-class {
+    margin: 30px;
+}
